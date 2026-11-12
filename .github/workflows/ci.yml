@@ -136,7 +136,7 @@ jobs:
       - uses: actions/download-artifact@v8
         with:
           name: title-normalizer-api-docs
-          path: _site/title-normalizer-apidocs
+          path: _site/title-normalizer-api
       - run: |
           cat > _site/index.html <<'EOF'
           <h1>Bandit reports</h1>
